@@ -1,0 +1,3 @@
+geth: ./run_geth.sh
+beacon: ./run_beacon.sh
+validator: ./run_validator.sh

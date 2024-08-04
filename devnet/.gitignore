@@ -1,0 +1,17 @@
+# data
+/beacondata
+/gethdata
+/validatordata
+
+# projects
+/go-ethereum
+/prysm
+
+# binaries
+/prysmctl
+/beacon-chain
+/geth
+/validator
+
+# genesis block
+/genesis.ssz
