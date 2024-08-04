@@ -1,5 +1,7 @@
 # Eth local dev network
 
+see: https://docs.prylabs.network/docs/advanced/proof-of-stake-devnet
+
 启动本地网络
 
 ```bash
