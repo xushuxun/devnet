@@ -5,12 +5,12 @@ import json
 w3 = Web3(Web3.HTTPProvider('http://localhost:8545'))
 
 # 合约地址（请替换为实际部署的地址）
-contract_address = '0x3B92c21Ad01E7091513eAb0c26C28B8Ba1Ee21ab'  # 替换为您的合约地址
+contract_address = '0x3e2AabB763F255CbB6a322DBe532192e120B5C6B'  # 替换为您的合约地址
 
 # 合约 ABI（从编译后的合约JSON文件中获取）
 # load file from artifacts/contracts/Token.sol/Token.json
 contract_abi = None
-with open('artifacts/contracts/Token.sol/Token.json') as f:
+with open('hardhat/artifacts/contracts/Token.sol/Token.json') as f:
     contract_abi = json.load(f)
     contract_abi = contract_abi['abi']
 
